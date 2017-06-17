@@ -11,6 +11,8 @@ import java.io.PrintWriter;
 
 /**
  * Created by Administrator on 2016/7/10.
+ * http://localhost:8080/vero/TestServlet2
+ * http://127.0.0.1:8080/vero/TestServlet2
  */
 @WebServlet(name = "TestServlet2" ,urlPatterns = "/TestServlet2")
 public class TestServlet2 extends HttpServlet {

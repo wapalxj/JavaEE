@@ -8,6 +8,7 @@ import java.io.PrintWriter;
 /**
  * Created by Administrator on 2016/7/9.
  * http://localhost:8080/vero/Servlet_vero?loginName=vero&loginPassword=123456
+ * http://127.0.0.1:8080/vero/Servlet_vero?loginName=vero&loginPassword=123456
  */
 @WebServlet(name = "Servlet_vero",urlPatterns = "/Servlet_vero")//注解代替web.xml配置<servlet-mapping>(servlet的url-pattern)
 public class veroServer extends javax.servlet.http.HttpServlet {

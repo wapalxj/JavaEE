@@ -1,0 +1,6 @@
+#Tomcat publish data
+#Wed Jun 14 21:46:00 CST 2017
+org.eclipse.jst.jee.server\:day08_02_servletContext=C\:\\xampp\\tomcat\\webapps\\day08_02_servletContext
+org.eclipse.jst.jee.server\:day08_01_servletConfig=C\:\\xampp\\tomcat\\webapps\\day08_01_servletConfig
+org.eclipse.jst.jee.server\:day09_00_httpServletResponse=C\:\\xampp\\tomcat\\webapps\\day09_00_httpServletResponse
+org.eclipse.jst.jee.server\:day08_00_servlet=C\:\\xampp\\tomcat\\webapps\\day08_00_servlet

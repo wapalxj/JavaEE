@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<!-- http://localhost:8080/day09_00_httpServletResponse/login.html -->
+</head>
+<body>
+	<form action="#" method="post">
+		用户名：<input type="text" name="userName"><br>
+		密码：<input type="password" name="pwd"><br>
+		验证码：<input type="text" name="code">
+		<img src="/day09_00_httpServletResponse/demo4"><a href="/day09_00_httpServletResponse/demo4">看不清换一张<br>
+		<input type="submit" value="登录"><br>
+	</form>
+</body>
+</html>

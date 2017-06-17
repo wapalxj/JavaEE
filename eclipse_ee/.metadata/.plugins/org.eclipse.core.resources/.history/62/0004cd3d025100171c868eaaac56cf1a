@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>验证码测试</title>
+<!-- http://localhost:8080/day09_00_httpServletResponse/login.html -->
+<script type="text/javascript">
+	function changeCode(){
+		//得到元素图片
+		var img=document.getElementsByTagName("img")[0];
+		//如果只写src，则和img中的src一样，浏览器认为地址没有变，而使用缓存的数据，导致验证码不会刷新
+		//添加time参数为了防止浏览器缓存
+		img.src="/day09_00_httpServletResponse/demo4?time="+new Date().getTime();
+	}
+</script>
+
+</head>
+<body>
+	<form action="#" method="post">
+		用户名：<input type="text" name="userName"><br>
+		密码：<input type="password" name="pwd"><br>
+		验证码：<input type="text" name="code">
+		<img src="/day09_00_httpServletResponse/demo4">
+		<a href="javascript:changeCode()">看不清换一张</a><br>
+		<input type="submit" value="登录"><br>
+	</form>
+</body>
+</html>

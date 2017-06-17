@@ -4,6 +4,7 @@
   Date: 2016/7/9
   Time: 21:41
   To change this template use File | Settings | File Templates.
+  http://localhost:8080/vero/index.jsp
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
